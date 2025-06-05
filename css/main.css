@@ -1159,37 +1159,6 @@ body {
   left: 1725px;
 }
 
-/* Animations */
-@keyframes float {
-  0%,
-  100% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-}
-
-.xp-badge-left,
-.xp-badge-right {
-  animation: float 3s ease-in-out infinite;
-}
-
-@keyframes glow {
-  0%,
-  100% {
-    box-shadow: 0 0 5px #40dde3;
-  }
-  50% {
-    box-shadow: 0 0 20px #40dde3, 0 0 30px #40dde3;
-  }
-}
-
-.get-notified-btn,
-.final-get-notified-btn {
-  animation: glow 2s ease-in-out infinite;
-}
-
 /* Responsive Design */
 @media (max-width: 1200px) {
   .container {
